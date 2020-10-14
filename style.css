@@ -6,6 +6,7 @@ body {
 
 header {
     font-family: Snell Roundhand, cursive;
+    border-radius: 15px;
     background-color: rgb(230, 199, 164, 0.75);
     text-align: center;
     padding: 1px;
@@ -26,6 +27,7 @@ h1{
 .content {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(230, 199, 164, 0.75);
+    border-radius: 15px;
     height: 400px;
     text-align: left;
 }
@@ -34,6 +36,7 @@ h1{
     height: 350px;
     margin: 15px;
     float: left;
+    border-radius: 15px;
 }
 
 .content h2{
@@ -47,4 +50,11 @@ h1{
 
 #rating {
     font-weight: bold;
+}
+
+footer {
+    background-color: rgb(230, 199, 164, 0.75);
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 15px;
 }
